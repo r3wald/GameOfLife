@@ -1,0 +1,23 @@
+{
+    "name": "r3wald/GameOfLife",
+    "require": {
+        "symfony/config": "*",
+        "symfony/dependency-injection": "*",
+        "symfony/event-dispatcher": "*"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "*"
+    },
+    "authors": [
+        {
+            "name": "Robert Ewald",
+            "email": "r3wald@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-0": {
+            "GameOfLife": "src/"
+        }
+    }
+}
